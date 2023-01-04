@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  height: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -10,12 +10,14 @@
   display: flex;
   justify-content:flex-end;
 }
+
 .header > div {
   background-color: #fbb3ff;
   flex-basis: 140px;
   height: 70px;
   margin: 0 10px;
 }
+
 .header > :first-child {
   margin-right: auto;
 }
@@ -26,7 +28,7 @@
 }
 
 .sidebar {
-  widows: 300px;
+  width: 300px;
   background-color: #d8ffb6;
 }
 
@@ -36,9 +38,10 @@
   padding: 20px;
   display: flex;
   flex-grow: 1;
-  flex-wrap:wrap;
-  justify-content:center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
 .content > div {
   height: 130px;
   margin: 10px;
@@ -47,7 +50,6 @@
 }
 
 .footer {
-  width: 100%;
   background-color: #52a1ff;
   padding: 20px;
   display: flex;
@@ -56,6 +58,7 @@
 }
 
 .footer > div {
+  width: 45%;
   height: 40px;
   margin: 10px;
   background-color:  #b6e7ff;
